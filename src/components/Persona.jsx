@@ -1,4 +1,4 @@
-export default function Persona(props){
+function Persona(props){
     const {nombre, apellido} = props
     return(
         <> 
@@ -9,3 +9,5 @@ export default function Persona(props){
         </>
     )
 }
+
+export default Persona;
